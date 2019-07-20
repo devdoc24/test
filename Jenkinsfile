@@ -1,7 +1,7 @@
 #! groovy
 
 node(){
-  stage('prepareWorksapce){
+  stage('prepareWorksapce'){
         echo "====Hello World===="
   }
 

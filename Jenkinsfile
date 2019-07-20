@@ -13,5 +13,8 @@ node(){
               extensions: [], submoduleCfg: [],
               userRemoteConfigs: [[url: 'https://github.com/devdoc24/test.git']]])
   }
+  
+  stage('BUILD'){
+  }
 
 }

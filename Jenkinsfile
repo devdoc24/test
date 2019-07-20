@@ -1,5 +1,9 @@
 #! groovy
 
+triggers {
+        pollSCM '* * * * *'
+    }
+
 node(){
   stage('prepareWorksapce'){
         echo "====Hello World===="

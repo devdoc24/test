@@ -7,6 +7,7 @@ node(){
   
   stage('checkout'){
     checkout([$class: 'GitSCM',
+              poll: true,
               branches: [[name: '*/master']],
               doGenerateSubmoduleConfigurations: false,
               extensions: [], submoduleCfg: [],

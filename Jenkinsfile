@@ -2,9 +2,6 @@
 
 node(){
         
-        triggers {
-        pollSCM '* * * * *'
-    }
         
   stage('prepareWorksapce'){
         echo "====Hello World===="
